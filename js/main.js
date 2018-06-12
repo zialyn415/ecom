@@ -44,7 +44,7 @@ for(i = 0; i < shoeArray.length; i++) {
 	colorH4.appendChild(sColor)
 	stockH4.appendChild(sStock)
 	buyNow.appendChild(sButton)
-	buyNow.className = "btn btn-primary btn-lg"
+	buyNow.className = "btn btn-success btn-lg"
 	image.src = sImage
 	image.className = "img-responsive"
 
@@ -56,7 +56,7 @@ for(i = 0; i < shoeArray.length; i++) {
 	newDiv.appendChild(colorH4)
 	newDiv.appendChild(stockH4)
 	newDiv.appendChild(buyNow)
-	newDiv.appendChild(newDiv)
+	newCol.appendChild(newDiv)
 
 	document.getElementById("shoes").appendChild(newCol)
 
